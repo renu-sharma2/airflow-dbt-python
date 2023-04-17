@@ -4,7 +4,7 @@ import datetime as dt
 import pendulum
 from airflow import DAG
 
-from airflow_dbt_python.operators.dbt import (
+from airflow_dbt.operators.dbt import (
     DbtRunOperator,
     DbtSeedOperator,
     DbtTestOperator,
